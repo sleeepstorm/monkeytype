@@ -450,6 +450,12 @@
       "source": "Python 3.11.0 documentation - Python HOWTOs",
       "id": 74,
       "length": 372
+    },
+    {
+      "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n df = pd.read_csv('data.csv')\n df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')\n plt.show()",
+      "source": "W3Schools - Pandas Plotting",
+      "id": "75",
+      "length": "149"
     }
   ]
 }
