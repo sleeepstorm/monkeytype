@@ -282,6 +282,12 @@
       "source": "Monkeytype Sourcecode",
       "length": 428,
       "id": 46
+    },
+     {
+      "text": "else if (this.mode === 'button') {\n $('.pageSettings').on(\n 'click',\n`.section.${this.configName} .button`,\n (e) => \n{ const target = $(e.currentTarget);\n if (\n target.hasClass('disabled') ||\n target.hasClass('no-auto-handle')\n ) {\n return;\n }\n let value: string | boolean = target.attr(configName) as string;\n if (!value) return;\n if (value === 'true') value = true;\n if (value === 'false') value = false;\n this.setValue(value as T);\n }\n );\n }\n }\n",
+      "source": "Monkeytype Sourcecode",
+      "length": 428,
+      "id": 46
     }
   ]
 }
